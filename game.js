@@ -1,7 +1,7 @@
 let game;
 
 let gameOptions = {
-  gravity: 5,
+  gravity: 1,
   maxItemsPerLevel: 30,
   maxIterations: 10,
   minItemsDistance: 160
@@ -20,8 +20,8 @@ window.onload = function() {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH,
       parent: "thegame",
-      width: 750,
-      height: 1334
+      width: 1250,
+      height: 1500
     },
     
     scene: playGame,
@@ -140,7 +140,7 @@ class playGame extends Phaser.Scene{
       this.canSummonHero = false;
       let item = this.matter.add.image(e.x, -200, "items");
       item.setCircle();
-      item.setBounce(1);
+      item.setBounce(1.2);
       item.body.label = HERO;
     }
   }
