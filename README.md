@@ -1,4 +1,24 @@
 # State Farm Competition Instructions
+
+Welcome to State Farm's game dev competition at ASU GameCon 2020! To compete, follow the instructions below for forking and modifying this base game and then submitting your modification for consideration. There are two Nintendo Switch Lites up for grabs for the best modification of the base game. We'll be judging your contributions based on the following criteria:
+
+- Fun Factor
+- Creativity / Innovation
+- Degree of Change
+- Quality
+- Completeness
+ 
+ For example, you might decide to update the artwork in an interesting way and earn yourself major points for Creativity but not be awarded much for Degree of Change. Other possible ideas for changing the game include:
+ 
+- Add scoring
+- Create barriers that change the way the hero falls
+- Add a health mechanic
+- Create a title screen
+- Make a way to lose and/or a way to win
+
+This game runs on the [Phaser](https://github.com/photonstorm/phaser) JavaScript game framework. You can see a running version of this base game [here](https://statefarmasugamecon.github.io/BaseGame/). All credit for the code and art in this base game goes to Emanuele Feronato's [One Tap RPG tutorial](https://www.emanueleferonato.com/2019/02/18/html5-prototype-of-one-tap-rpg-game-built-with-phaser-3-and-matter-js/).
+
+
 ## Prerequisites
 * Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Create a [GitHub account](http://github.com)
@@ -46,9 +66,3 @@
 * `git commit` - commits the files you've staged
 * `git push` - pushed the commit to the remote repository
 * More git commands as well as a detailed explanation of these can be found [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html). Let us know if you need help with these.
-
-Testing out the [Phaser](https://github.com/photonstorm/phaser) game framework.
-
-Code pulled from Emanuele Feronato's [One Tap RPG tutorial](https://www.emanueleferonato.com/2019/02/18/html5-prototype-of-one-tap-rpg-game-built-with-phaser-3-and-matter-js/).
-
-Latest running version available [here](https://statefarmasugamecon.github.io/PhaserPrototype/).

@@ -139,7 +139,6 @@ class playGame extends Phaser.Scene{
     if (this.canSummonHero) {
       this.canSummonHero = false;
       let item = this.matter.add.image(e.x, -200, "items");
-      //let item = this.matter.add.image(e.x, -200, "jay")
       item.setCircle();
       item.setBounce(1);
       item.body.label = HERO;
