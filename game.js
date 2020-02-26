@@ -1,7 +1,7 @@
 let game;
 
 let gameOptions = {
-  gravity: 1,
+  gravity: 5,
   maxItemsPerLevel: 30,
   maxIterations: 10,
   minItemsDistance: 160
